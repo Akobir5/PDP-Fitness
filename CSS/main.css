@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../IMG/image\ 13.png);
+    background-size: cover;
+}
+.navMain {
+    width: 100%;
+    height: 90px;
+    background-color: #411c86d3;
+    display: flex;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 12px;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+nav a:hover {
+    opacity: 0.7;
+    transition: 0.3s ease;
+}
+.landing_page  {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.landing_page .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box {
+    width: 50%;
+}
+.mainText {
+    width: 100%;    
+    font-size: 55px;
+    line-height: 70px;
+}
+.blueText {
+    color: #86DFF5;
+}
+.center {
+    color: #fff;
+    margin-left: 40px;
+}
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnHeader {
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.btnRegister {
+    background-color: #575ec6cb;
+}
+.btnRegister:hover {
+    background-color: #575ec6;
+    transition: 0.3s ease;
+}
+.btnCourses {
+    background-color: #86dff5be;
+}
+.btnCourses:hover {
+    background-color: #86dff5;
+    transition: 0.3s ease;
+}
